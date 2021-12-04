@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MVVM+Coroutines Sample</string>
+
+    <string name="dlg_title_alert" translatable="false">Alert</string>
+    <string name="dlg_btn_ok" translatable="false">OK</string>
+
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="title_posts">Posts</string>
+    <string name="title_albums">Albums</string>
+    <string name="title_friends">Friends</string>
+
+</resources>
