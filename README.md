@@ -1,5 +1,5 @@
 # MVVM-Kotlin-Coroutine-Dagger2-Sample
-A sample application to illustrating the clean Architecture using Android Development Best Practices. This application is built on using the [JSON PlaceHolder](https://jsonplaceholder.typicode.com/) API which is a collection of dummyy json apis.
+A sample application illustrating the clean Architecture using Android Development Best Practices. This application is built on using the [JSON PlaceHolder](https://jsonplaceholder.typicode.com/) API which is a collection of dummy json apis.
 
 Introduction
 ------------
@@ -16,13 +16,11 @@ Lifecycles, Navigation, Room and Data Binding. See a complete list in "Libraries
 
 The application does network HTTP requests via Retrofit, OkHttp and GSON. Loaded data is saved to
 SQL based database Room, which serves as single source of truth and support offline mode.
-Paging library is used for data pagination online and offline.
 
 Kotlin Coroutines manage background threads with simplified code and reducing needs for callbacks.
 Combination of Coroutines and Kotlin build in functions (transformation, collections) are preferred
 over RxJava 2.
 
-Work manager does synchronisation job being compatible with Doze Mode and using battery efficiently.
 Navigation component manages in-app navigation.
 
 Dagger 2 is used for dependency injection.
